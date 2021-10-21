@@ -24,7 +24,8 @@ if [ $GOOGLE_CHROME_EXIT -eq 0 ]
 then
   echo "Google Chrome Session saved: ${WORKING_ON}";
 else
-  echo "Google Chrome exited with error code: ${GOOGLE_CHROME_EXIT}. See ./${WORKING_ON}/error.log for error details.";
+  echo "Google Chrome exited with error code: ${GOOGLE_CHROME_EXIT}.";
+  echo "See ./${WORKING_ON}/error.log for error details.";
 fi
 
 echo "Run rm -r ./${WORKING_ON} to permanently delete this session."
