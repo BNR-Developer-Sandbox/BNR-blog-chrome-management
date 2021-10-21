@@ -1,6 +1,10 @@
-# BNR-blog-chrome-management
+# How I finally closed my Google Chrome browser windows on my Mac
 
 Google Chrome browser workflow to start, save, and restore multiple chrome browser sessions.
+
+See [work-on.sh](./work-on.sh) script for implementation.
+
+To learn more read the corresponding blog post on [How I finally closed my browser windows](https://bignerdranch.com/resources/blog/TODO-INSERT-BLOG-POST-URL) [Blog Pull Request](https://github.com/bignerdranch/blogposts/pull/452/files).
 
 ## Installation
 
@@ -31,10 +35,6 @@ e.g.
 
 `work-on.sh` will create a directory for session data, create an `error.log`, and open Google Chrome.
 If the directory already exists, then your session will be restored.
-
-See [work-on.sh](./work-on.sh) script for implementation.
-
-To learn more read the corresponding blog post on [How I finally closed my browser windows](https://bignerdranch.com/resources/blog/TODO-INSERT-BLOG-POST-URL) [Blog Pull Request](https://github.com/bignerdranch/blogposts/pull/452/files).
 
 ## Error logs
 
