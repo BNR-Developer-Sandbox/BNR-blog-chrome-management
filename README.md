@@ -33,8 +33,8 @@ e.g.
 ./work-on.sh My-New-Project
 ```
 
-`work-on.sh` will create a directory for session data, create an `error.log`, and open Google Chrome.
-If the directory already exists, then your session will be restored.
+`work-on.sh` will create a directory for Google Chrome session data, create an `error.log` for Google Chrome error output, and open Google Chrome.
+If the directory already exists and contains session data, then your session will be restored.
 
 ## Error logs
 
