@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 WORKING_ON=$1; # get directory name from first command line argument
 
